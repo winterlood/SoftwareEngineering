@@ -138,4 +138,4 @@ class Coures
         }
 ~~~
 
-Java였으면 Getter Setter만들기가 귀찮았겠지만 C#은 그런거 없다이거야~~
+Java였으면 Getter Setter만들기가 귀찮았겠지만 C#은 그런거 없다.
