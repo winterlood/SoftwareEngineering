@@ -1,5 +1,7 @@
 # SoftwareEngineering
+Start 2019-08-28 ~ 
 how to build software as safe
+
 
 
 2019-08-28
