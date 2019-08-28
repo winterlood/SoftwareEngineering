@@ -137,3 +137,5 @@ class Coures
             internal Phone OfficePhones { get => officePhones; set => officePhones = value; }
         }
 ~~~
+
+Java였으면 Getter Setter만들기가 귀찮았겠지만 C#은 그런거 없다이거야~~
