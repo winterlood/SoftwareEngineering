@@ -124,10 +124,12 @@ class Coures
         public class Phone
         {
         }
-        
         public class Preson
         {
-            Phone homePhones = new Phone();
-            Phone officePhones = new Phone();
+            private Phone homePhones = new Phone();
+            private Phone officePhones = new Phone();
+
+            internal Phone HomePhones { get => homePhones; set => homePhones = value; }
+            internal Phone OfficePhones { get => officePhones; set => officePhones = value; }
         }
 ~~~
