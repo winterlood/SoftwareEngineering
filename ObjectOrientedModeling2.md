@@ -35,7 +35,7 @@
 ~~~
      private class Student
         {
-            private List <Course> cs;
+            private List <Course> cs = null;
 
             public void registerCoures(Course coures)
             {
@@ -70,5 +70,20 @@ Q. 체크포인트
     100..*        1
      
      
+
+연관 클래스
+---
+
+연관 관계에 추가할 속성이나 행위가 있을 때 사용한다.
+
+예시
+![](./img/relate1.JPG)
+
+> Ex> 이정환은 소공에서 A+를 받았따.. <br>
+> 이정환 : Student, 소공 : Coures, A+ : TranScript
+
+다만 c#에는 다음과 같은 연관클래스 기능을 제공하지 않는다. 고로 다음과 같이 다이어그램을 변경하여 사용한다.
+
+![](./img/relate2.JPG)
 
 
