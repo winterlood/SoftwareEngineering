@@ -28,5 +28,8 @@ Techniques
  
  - **Use Case Analysis**
  
-
-
+ - **Major Risk**
+ 
+ - **Migration**
+ 
+ 
